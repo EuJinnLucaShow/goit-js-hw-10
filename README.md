@@ -86,7 +86,7 @@ HTTP-запити виконуються при введенні назви кр
 список знайдених країн. Кожен елемент списку складається з прапора та назви
 країни.
 
-![Country list UI](./preview/country-list.png)
+![Country list UI] (https://github.com/goitacademy/javascript-homework/blob/main/v2/10/preview/country-list.png?raw=true)
 
 Якщо результат запиту - це масив з однією країною, в інтерфейсі відображається
 розмітка картки з даними про країну: прапор, назва, столиця, населення і мови.
