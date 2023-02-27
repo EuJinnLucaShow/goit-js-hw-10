@@ -86,12 +86,12 @@ HTTP-запити виконуються при введенні назви кр
 список знайдених країн. Кожен елемент списку складається з прапора та назви
 країни.
 
-![Country list UI] (https://github.com/goitacademy/javascript-homework/blob/main/v2/10/preview/country-list.png?raw=true)
+![Country list UI](https://github.com/goitacademy/javascript-homework/blob/main/v2/10/preview/country-list.png?raw=true)
 
 Якщо результат запиту - це масив з однією країною, в інтерфейсі відображається
 розмітка картки з даними про країну: прапор, назва, столиця, населення і мови.
 
-![Country info UI](./preview/country-info.png)
+![Country info UI]![image](https://user-images.githubusercontent.com/115802889/221657890-44fd40be-bc25-4cce-9620-3c81fd30c8a1.png)
 
 > ⚠️ Достатньо, щоб застосунок працював для більшості країн. Деякі країни, як-от
 > `Sudan`, можуть створювати проблеми, оскільки назва країни є частиною назви
