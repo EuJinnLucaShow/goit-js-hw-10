@@ -80,7 +80,7 @@ HTTP-запити виконуються при введенні назви кр
 і виводь такий рядок
 `"Too many matches found. Please enter a more specific name."`.
 
-![Too many matches alert](./v2/10/preview/country-info.png)
+![Too many matches alert](https://github.com/goitacademy/javascript-homework/blob/main/v2/10/preview/country-info.png?raw=true)
 
 Якщо бекенд повернув від 2-х до 10-и країн, під тестовим полем відображається
 список знайдених країн. Кожен елемент списку складається з прапора та назви
