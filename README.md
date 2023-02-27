@@ -106,7 +106,7 @@ HTTP-запити виконуються при введенні назви кр
 використовуючи
 [бібліотеку notiflix](https://github.com/notiflix/Notiflix#readme).
 
-![Error alert](./preview/error-alert.png)
+![Error alert]https://github.com/goitacademy/javascript-homework/blob/main/v2/10/preview/error-alert.png?raw=true
 
 > ⚠️ Не забувай про те, що `fetch` не вважає 404 помилкою, тому необхідно явно
 > відхилити проміс, щоб можна було зловити і обробити помилку.
