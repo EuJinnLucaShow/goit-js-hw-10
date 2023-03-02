@@ -7,14 +7,76 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  /* height: 100vh; */
   color: #212121;
-  line-height: 1.5;
+  /* line-height: 1.5; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+  padding-top: 50px;
+  /* justify-content: center; */
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #search-box {
   font: inherit;
-  padding: 8px;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+#search-box:focus {
+  outline: none;
+}
+
+.country-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.country-list li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.country-list img {
+  margin-right: 10px;
+}
+
+.country-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country-info p {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px;
 }
