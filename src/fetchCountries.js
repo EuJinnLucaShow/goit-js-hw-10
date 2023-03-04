@@ -8,4 +8,4 @@ const fetchCountries = async name => {
   return await response.json();
 };
 
-export { fetchCountries };
+export { fetchCountries };// іменований експорт раніше оголошеної функції

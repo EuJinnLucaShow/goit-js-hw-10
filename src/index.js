@@ -1,10 +1,9 @@
-// завантажуєм необхідні залежності для проекту
-import './css/styles.css';// стилізація сторінки
-import debounce from 'lodash.debounce';// для затримки виконання функції відправки запиту на сервер
+import './css/styles.css';
+import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
-import { fetchCountries} from './fetchCountries';
+import { fetchCountries} from './fetchCountries';// Іменований імпорт
 
-const DEBOUNCE_DELAY = 300;//визначає затримку для функції debounce
+const DEBOUNCE_DELAY = 300;//встановлюється затримка для функції debounce
 
 const searchBox = document.getElementById('search-box');
 const countryList = document.querySelector('.country-list');
@@ -13,7 +12,7 @@ const countryInfo = document.querySelector('.country-info');
 const cleanMarkup = ref => ref.innerHTML = '';// очищує вміст HTML-елемента, переданого як параметр
 
 const inputHandler = e => {
-  const textInput = e.target.value.trim();
+  const textInput = e.target.value.trim();// trim()видаляє пробіли значень полів уведення
 
   if (!textInput) {
     [countryList, countryInfo].forEach(cleanMarkup);
