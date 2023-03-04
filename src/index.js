@@ -55,7 +55,7 @@ function createInfoMarkup(data) {
   <h2>${name.official}</h2>
   <p>Capital: ${capital}</p>
   <p>Population: ${population}</p>
-  <p>Languages: ${Object.values(languages)}</p>
+  <p>Languages: ${Object.values(languages).join(', ')}</p>
 `).join('');
 }
 
